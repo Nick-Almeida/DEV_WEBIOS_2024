@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Opinião</title>
+</head>
+    <body>
+
+        <h2>Bem vindo ao formulário de pesquisa de opinião</h2>
+        <h3>Não se preocupe, toda informação é enviada de forma anônima para a empresa</h3>
+        <h4>Os elementos marcados com " * " são de preenchimento obrigatório</h4>
+
+
+        <form action="">
+            <!-- Nome da empresa -->
+            <label for="">*Qual o nome da empresa onde trabalha?</label>
+            <input type="text" placeholder="Nome da Empresa" size="50" required></Input> <br> <br>
+
+            <!-- Data que começou -->
+            <label for="">*Quando você começou na empresa?</label>
+            <input type="date" required> <br><br>
+
+            <!-- Quantidade de funcionários -->
+            <label for="">*Qual a quantidade de funcionários da empresa? (Aproximadamente)</label>
+            <input type="number" placeholder="Apenas números" required> <br><br>
+
+            <!-- Salário -->
+            <label for="">*Qual o seu salário registrado na carteira?</label>
+            <input type="number" placeholder="Valor com os centavos" required> <br><br>
+
+            <!-- Trablha na empresa -->
+            <label for="">*Ainda trabalha na empresa?</label> <br>
+
+            <input type="radio" id="sim" name="ainda_trab" value="SIM" required> 
+            <label for="">Sim</label> <br>
+            <input type="radio" id="nao" name="ainda_trab" value="NAO" required>
+            <label for="">Não</label> <br> <br>
+
+            <!-- CLT ou PJ -->
+            <label for="">*Você é CLT ou PJ?</label> <br>
+
+            <input type="radio" id="clt" name="tipo_trab" value="CLT" required> 
+            <label for="">CLT</label> <br>
+            <input type="radio" id="pj" name="tipo_trab" value="PJ" required>
+            <label for="">PJ</label> <br> <br>
+
+            <!-- Benefícios -->
+            <label for="">Dos benefícios abaixo, qual você recebe?</label> <br><br>
+
+            <input type="checkbox">
+            <label for="">Vale Refeição</label>
+
+            <input type="checkbox">
+            <label for="">Cesta Básica</label> <br><br>
+
+            <input type="checkbox">
+            <label for="">Vale Alimentação</label>
+
+            <input type="checkbox">
+            <label for="">Day Off</label> <br><br>
+
+            <input type="checkbox">
+            <label for="">Vale Transporte</label>
+
+            <input type="checkbox">
+            <label for="">Bolsa de Estudos</label> <br><br>
+
+            <input type="checkbox">
+            <label for="">Academias</label>
+
+            <input type="checkbox">
+            <label for="">Licença Maternidade/Paternidade</label> <br><br>
+
+            <input type="checkbox">
+            <label for="">PLR (Participação nos Lucros e Resultados)</label>
+
+            <input type="checkbox">
+            <label for="">Pet Friendly</label> <br><br>
+
+            <input type="checkbox">
+            <label for="">Plano de Saúde</label>
+
+            <input type="checkbox">
+            <label for="">Empréstimo Consignado</label> <br><br>
+
+            <input type="checkbox">
+            <label for="">Plano Odontológico</label> <br><br>
+            
+            <!-- Prós da empresa -->
+            <label for="">*Diga os Prós da empresa</label>
+            <input type="text" placeholder="Prós" size="50" required> <br><br>
+
+            <!-- Contras da empresa -->
+            <label for="">*Diga os Contras da empresa</label>
+            <input type="text" placeholder="Prós" size="50" required> <br><br>
+
+            <!-- Envio -->
+             <label for="">Se já preencheu, clique no botão abaixo</label> <br><br>
+             <input type="submit">
+
+        </form>
+    
+</html>
