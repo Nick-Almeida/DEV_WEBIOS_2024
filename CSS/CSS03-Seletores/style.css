@@ -1,0 +1,60 @@
+/*Para chamar uma div, use #
+Para chamar uma class, use . */
+*{
+    font-family:cursive;
+}
+
+
+
+body{
+    background-image: linear-gradient(to right, rgb(90, 71, 90), rgb(150, 150, 255));
+}
+
+#p1{
+    color: aquamarine;
+}
+
+#p2{
+    color: lightblue;
+}
+
+.divs{
+    color: rgb(0, 255, 13);
+    background-image: linear-gradient(to right, rgb(255, 109, 219), rgb(238, 99, 99));
+}
+
+/* Atividade */
+#sec1{
+    background-color: red;
+}
+
+#sec2{
+    background-color: purple;
+}
+
+#link1{
+    color: white;
+    font-size: 35px;
+}
+
+#link2{
+    color: gray;
+    font-size: 54px;
+}
+
+.titulos{
+    color: green;
+    background-color: white;
+}
+/* Fim atividade */
+
+/* Seletor elemento elemento */
+section h2{
+    background-image: radial-gradient(blue, red);
+    color: lawngreen;
+}
+
+#p6, h1{
+    font-weight:900;
+    border: solid rgb(24, 168, 5) 2px;
+}
