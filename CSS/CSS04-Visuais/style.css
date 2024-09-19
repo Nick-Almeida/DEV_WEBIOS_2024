@@ -1,0 +1,34 @@
+body{
+    background-image: url("../CSS04-Visuais/img/Cubos.avif");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Compacto */
+#p1{
+    color: red;
+    border: 5px aquamarine ridge;
+    border-radius: 5px;
+}
+
+/* Normal */
+#p2{
+    color: red;
+    border-width: 2px;
+    border-color: rgb(105, 72, 255);
+    border-style: dashed;
+    border-radius: 5px;
+    text-shadow: 1px 1px blue;
+}
+
+img{
+    width: 500px;
+    border: rgb(255, 0, 0) 1px solid;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px purple;
+}
+
+figcaption{
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 3px blue;
+}
