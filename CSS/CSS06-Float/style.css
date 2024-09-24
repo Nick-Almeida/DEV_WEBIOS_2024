@@ -1,0 +1,13 @@
+img{
+    float: left;
+    margin-right: 5px;
+}
+
+#img2{
+    float: right;
+    margin-left: 5px;
+}
+
+p{
+    clear: both;
+}
