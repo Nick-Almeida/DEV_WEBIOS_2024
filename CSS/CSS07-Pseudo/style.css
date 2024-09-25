@@ -1,0 +1,30 @@
+button{
+    background-color: blueviolet;
+    color: aqua;
+    width: 60px;
+    height: 60px;
+    border: 2px solid aqua;
+    border-radius: 100%;
+}
+
+button:hover{
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+}
+
+p:hover{
+    color: yellow;
+    background-image: linear-gradient(darkblue, violet);
+}
+
+input:focus{
+    background-color: lightblue;
+}
+
+li:first-child{
+    border: 1px solid rgb(0, 4, 255);
+}
