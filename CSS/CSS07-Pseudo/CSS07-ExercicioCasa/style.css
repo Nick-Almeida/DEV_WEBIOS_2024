@@ -1,0 +1,67 @@
+body{
+    background-color: #C1C2BC;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+::selection{
+    background-color: #314A20;
+    color: white;
+}
+
+.container{
+    padding: 2em;
+}
+
+header{
+    text-align: center;
+    background-color: #8c867c;
+}
+
+#sinopse:hover::first-line{
+    background-color: #314A20;
+    color: white;
+}
+
+#logo{
+    width: 15em;
+    margin: 0em 1em 1em 0em ;
+    float: left;
+}
+
+.naoEsquerda{
+    clear: left;
+}
+
+iframe{
+    float: left;
+    margin: 0em 1em 1em 0em ;
+}
+
+.noticia::first-letter{
+    font-size: 70%;
+    color: #533618;
+}
+
+.button{
+    margin-top: 10px;
+    padding: 0.01em 0.2em;
+    border: 1px black solid;
+    border-radius: 0.5em;
+    color: black;
+    background-color: #8c867c;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #314A20;
+    color: white;
+}
+
+#p1footer::after{
+    content: "\00a9";
+}
+
+#p2footer::before{
+    content: "| Nicolas Silva Almeida";
+}
