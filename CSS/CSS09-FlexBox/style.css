@@ -1,0 +1,23 @@
+#container{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, #a18cd1,#fbc2eb);
+    align-items: center;
+}
+
+.item{
+    color: aqua;
+    text-align: center;
+    border: 1.5px solid black;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(to bottom right, #833ab4,#fd1d1d,#fcb045);
+}
+
+.item-1{
+    height: 20px;
+    flex-grow: 1;
+}
