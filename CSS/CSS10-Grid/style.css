@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+}
+
+.item{
+    border: 1px solid black;
+    background: linear-gradient(lightblue, rgb(233, 128, 233));
+}
