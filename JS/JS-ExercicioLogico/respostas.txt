@@ -1,1 +1,20 @@
 Respostas das questões
+
+Probabilidade:
+R: Alternativa A: 1/12.
+
+Sequência:
+Pergunta 1
+R: Alternativa D: 61
+
+Pergunta 2
+R: Alternativa B: 3240
+
+Raciocínio:
+R: Alternativa E: Gado
+
+Equivalência:
+R: Alternativa E: Nenhum brasileiro gosta de futebol.
+
+Análise Combinatória:
+R: Alternativa B: 24 maneiras
