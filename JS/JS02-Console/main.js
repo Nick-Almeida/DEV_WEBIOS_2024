@@ -45,13 +45,17 @@
 // let nome = prompt("Qual o seu nome?")
 // alert(`Olá ${nome}!`)
 
+// Number(prompt(num)) - Inteiro e quebrado
+// parseInt(prompt(num)) - Número inteiro
+// parseFloat(prompt(num)) - Número quebrado
+
 alert("Olá, Mundo!")
 
-let nome = prompt("Qual seu nome?")
+let nome = parseInt(prompt("Qual seu nome?"))
 alert ("Bem vindo " + nome)
 
 let idade = prompt("Qual sua idade?")
 
-let maiorIdade = idade >= "18"
+let maiorIdade = idade >= 18
 ? "maior de idade" : "menor de idade"
 alert ("Você é " + maiorIdade)
